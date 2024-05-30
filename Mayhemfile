@@ -1,0 +1,6 @@
+project: dbrumley/cppexample
+target: driver
+image: dbrumley/cppexample
+cmds:
+  - cmd: /build/driver @@
+    optimizations: false
